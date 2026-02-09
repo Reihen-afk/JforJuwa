@@ -82,6 +82,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Setup music player
     setupMusicPlayer();
+
+    // Start directly on Question 2 (skip Question 1)
+    showNextQuestion(2);
 });
 
 // Create floating hearts and bears
